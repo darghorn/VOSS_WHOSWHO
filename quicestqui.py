@@ -7,7 +7,7 @@ import random
 
 
 # Update this list to change the name in the answer
-list = [u'Paul', u'Lola', u'Urbain', u'Emilio', u'Papi']
+list = [u'Julien', u'Cyril', u'Yoda', u'Cheoui']
 
 # Initialize the random access
 secure_random = random.SystemRandom()
