@@ -24,7 +24,7 @@ def slot_decoder(slots, slot_name):
 
 def on_connect(client, userdata, flags, rc):
     # subscribe to Domos:Quicestqui messages
-    mqtt_client.subscribe('hermes/intent/darghorn:Quicestqui')
+    mqtt_client.subscribe('hermes/intent/Darghorn:Quicestqui')
 
 # Process a message as it arrives
 def on_message(client, userdata, msg):
